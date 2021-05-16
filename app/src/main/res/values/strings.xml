@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FlowChipLayout</string>
+    <string name="email_input_error">The email you entered is not valid</string>
 </resources>
