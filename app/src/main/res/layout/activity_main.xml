@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/orel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="orelzion" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/karri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="karriapps@gmail.com" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/icloud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="orelzion@icloud.com" />
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="100dp"
+        />
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/mailsLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:constraint_referenced_ids="orel,karri, emailInput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:flow_wrapMode="chain"
+        app:flow_horizontalStyle="packed"
+        app:flow_horizontalBias="0"
+        app:flow_horizontalAlign="start"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
