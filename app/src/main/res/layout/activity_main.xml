@@ -4,24 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.google.android.material.chip.Chip
-        android:id="@+id/orel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="orelzion" />
-
-    <com.google.android.material.chip.Chip
-        android:id="@+id/karri"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="karriapps@gmail.com" />
-
-    <com.google.android.material.chip.Chip
-        android:id="@+id/icloud"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="orelzion@icloud.com" />
-
     <EditText
         android:id="@+id/emailInput"
         android:layout_width="wrap_content"
