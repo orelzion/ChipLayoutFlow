@@ -56,7 +56,6 @@ class MainActivity : AppCompatActivity() {
                     }.toIntArray()
             }
             viewBinding.mailsLayout.referencedIds = updatedArray
-            viewBinding.emailInput.text = null
         }
     }
 
