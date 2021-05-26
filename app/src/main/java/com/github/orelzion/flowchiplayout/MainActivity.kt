@@ -40,9 +40,10 @@ class MainActivity : AppCompatActivity() {
 
             if(!emailInput.matches(EMAIL_REGEX.toRegex())) {
                 Toast.makeText(this, R.string.email_input_error, Toast.LENGTH_SHORT).show()
-                viewBinding.emailInput.text = null
                 return
             }
+            
+            viewBinding.emailInput.text = null
 
             val chip = createChip(withText = emailInput)
             viewBinding.root.addView(chip)
